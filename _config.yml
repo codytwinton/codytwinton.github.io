@@ -21,6 +21,14 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://codywinton.com" # the base hostname & protocol for your site, e.g. http://example.com
 
+current-work:
+  title: Current Work
+  link: "http://credntia.com"
+
+contact-me:
+  title: Contact Me
+  link: "mailto:me@codywinton.com"
+
 social:
   facebook: codytwinton
   twitter: codytwinton
@@ -31,7 +39,6 @@ social:
 
 # Build settings
 markdown: kramdown
-theme: minima
 gems:
   - jekyll-feed
 
