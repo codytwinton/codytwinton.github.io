@@ -21,11 +21,11 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://codywinton.com" # the base hostname & protocol for your site, e.g. http://example.com
 
-current-work:
+button-1:
   title: Current Work
   link: "http://credntia.com"
 
-contact-me:
+button-2:
   title: Contact Me
   link: "mailto:cody@codywinton.com"
 

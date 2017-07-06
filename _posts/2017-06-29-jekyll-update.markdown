@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title:  Jekyll Update
 date:   2017-06-29 22:02:54 -0500
 categories: jekyll update
