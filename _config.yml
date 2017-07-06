@@ -39,7 +39,7 @@ social:
 
 # Build settings
 markdown: kramdown
-plugins:
+gems:
   - jekyll-feed
 
 # Exclude from processing.

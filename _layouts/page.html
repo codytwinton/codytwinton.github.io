@@ -2,4 +2,13 @@
 layout: default
 ---
 
-{{ content }}
+<div class="info position-relative">
+	<div class="content pin-middle-center">
+		<h1 class="logo">{{ page.title | escape }}</h1>
+		{{ content }}
+	</div>
+</div>
+
+<a href="{{ "/" | relative_url }}">
+	<figure class="hero" style="background: url('/assets/images/hero.jpg');"></figure>
+</a>
