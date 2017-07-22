@@ -1,7 +1,7 @@
 ---
+title: Resume
+permalink: "/resume/"
 layout: page
-title: "Resume"
-permalink: /resume/
 ---
 
 TBD
