@@ -2,6 +2,7 @@
 title: New Page
 date: 2017-07-22 00:16:00 Z
 permalink: "/new-page/"
+layout: page
 ---
 
 # HI THERE!
