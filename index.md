@@ -1,8 +1,8 @@
 ---
 title: Cody Winton
-layout: home
 redirect_from:
 - "/about/"
+layout: home
 ---
 
-{{ site.description }}
+I'm a multi-stack dev & creative problem-solver. Follow me anywhere **@codytwinton**
