@@ -1,5 +1,6 @@
 ---
 title: Cody Winton
+position: 1
 redirect_from:
 - "/about/"
 - "/home/"
