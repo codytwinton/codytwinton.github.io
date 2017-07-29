@@ -1,15 +1,16 @@
 ---
 title: Cody Winton
 position: 0
+subtitle: Developer | CEO | Creative
 redirect_from:
 - "/about/"
 - "/home/"
-layout: home
 buttons:
 - title: Current Work
   link: http://credntia.com
 - title: Contact Me
   link: mailto:cody@codywinton.com
+layout: home
 ---
 
 I'm a multi-stack dev & creative problem-solver. Follow me anywhere **@codytwinton**
