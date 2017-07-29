@@ -22,6 +22,9 @@ button-1:
 button-2:
   title: Contact Me
   link: mailto:cody@codywinton.com
+google_analytics:
+  prod_key: UA-103616440-1
+  staging_key: testing
 social:
   facebook: codytwinton
   twitter: codytwinton
