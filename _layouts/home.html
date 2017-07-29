@@ -8,7 +8,15 @@ layout: page
 
 {{ content }}
 
-<nav class="buttons">
-	<a href={{ site.button-1.link | escape }} class="button" target="_blank">{{ site.button-1.title }}</a>
-	<a href={{ site.button-2.link | escape }} class="button">{{ site.button-2.title }}</a>
-</nav>
+{% if page.buttons %}
+	<nav class="buttons">
+		{% for button in page.buttons %}
+			{% if button.link contains "http" %}
+				{% assign button_target = "_blank" %}
+			{% else %}
+				{% assign button_target = "_self" %}
+			{% endif %}
+			<a href={{ button.link | escape }} class="button" target={{ button_target }}>{{ button.title }}</a>
+		{% endfor %}
+	</nav>
+{% endif %}
