@@ -8,6 +8,18 @@ collections:
   uploads:
     title: Uploads
     output: true
+defaults:
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
+- scope:
+    path: ''
+    type: posts
+  values:
+    permalink: "/blog/:title/"
+    layout: post
 url: http://codywinton.com
 tagline: Developer | CEO | Creative
 email: cody@codywinton.com
@@ -33,6 +45,7 @@ social:
   github: codytwinton
 baseurl: 
 markdown: kramdown
+permalink: pretty
 gems:
 - jekyll-feed
 - jekyll-redirect-from
