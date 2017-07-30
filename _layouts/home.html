@@ -2,13 +2,9 @@
 layout: page
 ---
 
-<nav class="social">
-	{% for social in site.data.info.socials %}
-		<a href={{ social.url | append: social.username | escape }} alt={{ social.title | escape }} target="_blank">{{ social.icon }}</a>
-	{% endfor %}
-</nav>
-
 {{ content }}
+
+<br>
 
 {% if page.buttons %}
 	<nav class="buttons">
@@ -22,3 +18,9 @@ layout: page
 		{% endfor %}
 	</nav>
 {% endif %}
+
+<nav class="social">
+	{% for social in site.data.info.socials %}
+		<a href={{ social.url | append: social.username | escape }} alt={{ social.title | escape }} target="_blank">{{ social.icon }}</a>
+	{% endfor %}
+</nav>
