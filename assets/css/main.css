@@ -228,7 +228,7 @@ h6 {
 }
 
 .social a {
-    font-family: 'Icons';
+    font-family: 'FontAwesome';
 	font-size: 15px;
 	margin: 0 5px;
 	color: #333;
@@ -242,42 +242,6 @@ h6 {
 
 .social a:hover {
 	color: #007496;
-}
-
-.facebook::after {
-	content: '\f231';
-}
-
-.twitter::after {
-    content: '\f243';
-}
-
-.googleplus::after {
-	content: '\f234';
-}
-
-.instagram::after {
-	content: '\f350';
-}
-
-.github::after {
-	content: '\f233';
-}
-
-.linkedin::after {
-	content: '\f239';
-}
-
-.medium svg {
-	height: 12px;
-	width: 20px;
-}
-
-.medium svg path {
-	transition: fill .3s ease-in;
-    -moz-transition: fill .3s ease-in;
-    -o-transition: fill .3s ease-in;
-    -webkit-transition: fill .3s ease-in;
 }
 
 .st0 {
@@ -302,10 +266,6 @@ h6 {
 
 .st5 {
 	fill:#231f20;
-}
-
-.medium:hover path {
-	fill: #007496;
 }
 
 /* layout */
@@ -469,4 +429,10 @@ h6 {
 	font-family: 'Icons';
 	src: url('../fonts/icons.woff') format('woff'),
 		 url('../fonts/icons.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'FontAwesome';
+	src: url('../fonts/fontawesome-webfont.woff') format('woff'),
+		 url('../fonts/fontawesome-webfont.woff2') format('woff2');
 }

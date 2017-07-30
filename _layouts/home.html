@@ -2,7 +2,11 @@
 layout: page
 ---
 
-{% include social.html %}
+<nav class="social">
+	{% for social in site.data.info.socials %}
+		<a href={{ social.url | append: social.username | escape }} alt={{ social.title | escape }} target="_blank">{{ social.icon }}</a>
+	{% endfor %}
+</nav>
 
 {{ content }}
 
