@@ -5,7 +5,6 @@ collections:
   authors:
     title: Authors
     output: true
-    permalink: auth/:path
   posts:
     title: Posts
     output: true
@@ -13,6 +12,13 @@ collections:
     title: Uploads
     output: true
 defaults:
+- scope:
+    path: ''
+    type: authors
+  values:
+    layout: page
+    subtitle: 
+    image: 
 - scope:
     path: ''
     type: pages
@@ -27,6 +33,7 @@ defaults:
     permalink: "/blog/:title/"
     layout: post
     subtitle: 
+    author: 
 url: http://codywinton.com
 email: cody@codywinton.com
 description: 'I''m a multi-stack dev & creative problem-solver. Follow me anywhere
