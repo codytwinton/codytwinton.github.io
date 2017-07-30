@@ -6,4 +6,4 @@ subtitle: Developer | CEO | Creative
 layout: page
 ---
 
-TBD
+{{ page.title }} is TBD
