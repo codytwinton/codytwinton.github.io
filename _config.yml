@@ -4,7 +4,7 @@ timezone: America/Chicago
 collections:
   authors:
     title: Authors
-    output: true
+    output: false
   posts:
     title: Posts
     output: true
