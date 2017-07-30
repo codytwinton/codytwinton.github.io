@@ -1,6 +1,6 @@
 ---
 title: Jekyll Update
-date: 2017-06-29 22:02:00 -05:00
+date: 2017-06-29 12:00:00 -05:00
 categories:
 - jekyll
 - update
