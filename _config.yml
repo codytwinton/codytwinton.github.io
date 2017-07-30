@@ -24,15 +24,15 @@ defaults:
   values:
     layout: page
     subtitle: 
-    hero_image: "/uploads/hero.jpg"
+    hero_image: '/uploads/hero.jpg'
 - scope:
     path: ''
     type: posts
   values:
-    permalink: "/blog/:title/"
+    permalink: '/blog/:title/'
     layout: post
     subtitle: 
-    author: 
+    author: 'Cody Winton'
 url: http://codywinton.com
 email: cody@codywinton.com
 description: 'I''m a multi-stack dev & creative problem-solver. Follow me anywhere
