@@ -13,4 +13,7 @@ buttons:
 layout: home
 ---
 
-I'm a multi-stack dev & creative problem-solver. Follow me anywhere **@codytwinton**
+I'm a multi-stack dev & creative problem-solver
+
+CEO at
+<a href="http://credntia.com" target="_blank">Credntia</a>
