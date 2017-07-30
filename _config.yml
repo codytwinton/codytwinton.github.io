@@ -5,6 +5,7 @@ collections:
   authors:
     title: Authors
     output: true
+    permalink: auth/:path
   posts:
     title: Posts
     output: true
