@@ -8,7 +8,6 @@ tags:
 - jekyll
 - update
 subtitle: Jekyll Updates Handled Now
-author: Cody Winton
 ---
 
 I updated my website using `jekyll`. Pretty sweet.
