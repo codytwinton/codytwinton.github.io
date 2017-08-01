@@ -40,8 +40,7 @@ description: 'I''m a multi-stack dev & creative problem-solver. Follow me anywhe
 
 '
 google_analytics:
-  prod_key: UA-103616440-1
-  staging_key: testing
+  tracking_id: UA-103616440-1
 baseurl: 
 markdown: kramdown
 permalink: pretty
