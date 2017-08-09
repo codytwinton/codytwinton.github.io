@@ -3,6 +3,7 @@ title: Resume
 position: 1
 subtitle: Developer | CEO | Creative
 ---
+
 # Cody Winton | Resume
 
 ## CEO | Developer | Creative**
