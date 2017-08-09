@@ -43,7 +43,7 @@ sass:
   sass_dir: styles/
   style: compressed
 baseurl: 
-gems:
+plugins:
 - jekyll-feed
 - jekyll-redirect-from
 markdown: kramdown
