@@ -26,6 +26,9 @@ defaults:
     subtitle: 
     hero_image: "/uploads/hero.jpg"
     is_header_page: false
+    action:
+    - title: 
+      link: 
 - scope:
     path: ''
     type: posts
@@ -35,6 +38,9 @@ defaults:
     subtitle: 
     hero_image: "/uploads/hero.jpg"
     author: Cody Winton
+    action:
+    - title: 
+      link: 
 url: http://codywinton.com
 email: cody@codywinton.com
 description: 'Cody Winton: I''m a multi-stack developer & a creative problem solver.
