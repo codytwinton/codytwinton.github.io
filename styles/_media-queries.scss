@@ -74,7 +74,7 @@
       min-height: 300px;
 
       &:nth-child(odd) {
-        border-right: 1px solid #ddd;
+        border-right: 1px solid $color-off-white;
       }
 
       &:first-child { border-top-width: 0; }
@@ -84,7 +84,7 @@
     &-item-small {
       width: 33%;
       min-height: 200px;
-      border: 1px solid #ddd;
+      border: 1px solid $color-off-white;
     }
   }
 }

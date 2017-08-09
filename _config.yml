@@ -33,6 +33,7 @@ defaults:
     permalink: "/blog/:title/"
     layout: post
     subtitle: 
+    hero_image: "/uploads/hero.jpg"
     author: Cody Winton
 url: http://codywinton.com
 email: cody@codywinton.com
