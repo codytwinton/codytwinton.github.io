@@ -41,6 +41,9 @@ description: 'I''m a multi-stack dev & creative problem-solver. Follow me anywhe
 '
 google_analytics:
   tracking_id: UA-103616440-1
+sass:
+  sass_dir: styles/
+  style: compressed
 baseurl: 
 gems:
 - jekyll-feed
