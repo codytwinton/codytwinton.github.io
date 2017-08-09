@@ -10,7 +10,6 @@ buttons:
   link: http://credntia.com
 - title: Contact Me
   link: mailto:cody@codywinton.com
-layout: home
 ---
 
 I'm a multi-stack dev & creative problem-solver

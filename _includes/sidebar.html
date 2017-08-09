@@ -1,0 +1,21 @@
+<a href="{{ " / " | relative_url }}">
+  <aside class="sidebar" role="note" style="background-image: url({{ page.hero_image | relative_url }})">
+
+    <div class="cover">
+
+      <div class="cover-text">
+        <div class="heading">
+          {% if page.title %} {{ page.title }} {% endif %}
+        </div>
+
+        <p>
+          {% if page.subtitle %} {{ page.subtitle }} {% endif %}
+        </p>
+
+      </div>
+
+    </div>
+
+    <div id="switcher"></div>
+  </aside>
+</a>

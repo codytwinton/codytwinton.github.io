@@ -1,0 +1,7 @@
+<footer class="main-footer content-wrapper">
+    <h3> Social Accounts </h3>
+    <br>
+    {% for social in site.data.info.socials %}
+    <a href={{ social.url | append: social.username | escape }} class="social" alt={{ social.title | escape }} target="_blank">{{ social.icon }}</a>
+    {% endfor %}
+</footer>

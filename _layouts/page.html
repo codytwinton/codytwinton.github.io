@@ -1,18 +1,19 @@
 ---
 layout: default
 ---
+<article class="page">
+  {{ content }}
 
-<figure class="hero">
-	<a href="{{ "/" | relative_url }}">
-		<img class="logo" src="{{ page.hero_image | relative_url }}" alt="{{ site.title | escape }} Logo">
-	</a>
-</figure>
-
-<div class="info position-relative">
-	<div class="content pin-middle-center">
-		<h1 class="logo">{{ page.title | escape }}</h1>
-		<h6 class="subheading">{{ page.subtitle | escape }}</h6>
-		<br>
-		{{ content }}
-	</div>
-</div>
+  	{% if page.buttons %}
+		<nav class="buttons">
+			{% for button in page.buttons %}
+				{% if button.link contains "http" %}
+					{% assign button_target = "_blank" %}
+				{% else %}
+					{% assign button_target = "_self" %}
+				{% endif %}
+				<a href={{ button.link | escape }} class="button" target={{ button_target }}>{{ button.title }}</a>
+			{% endfor %}
+		</nav>
+	{% endif %}
+</article>
