@@ -10,7 +10,7 @@ subtitle: Developer | CEO | Creative
 ## Skills
 
 - **Languages:** Swift, Objective-C, JavaScript, HTML, CSS, TypeScript
-- **Platforms:** iOS, Xcode, Node.js, JAMstack, Git, Core Data, REST, Twitter & Facebook SDKs, Cocoapods, Realm Mobile Database, SQLite, Continuous Integration, CLI, Angular, Firebase, Google Cloud, iOS App Store Submission, Google Play Store Submission, Open Source, fastlane
+- **Paradigms:** iOS, Xcode, Node.js, JAMstack, Git, Core Data, REST, Twitter & Facebook SDKs, Cocoapods, Realm Mobile Database, SQLite, Continuous Integration, CLI, Angular, Firebase, Google Cloud, iOS App Store Submission, Google Play Store Submission, Open Source, fastlane
 - **Patterns:** Object and Protocol Oriented Programming, MVC and VIPER Architecture, Dependency Injection, Unit Testing, HIPAA Compliance, AES Encryption, Documentation
 - **Other:** SDLC, UI and UX Design, Financials, Brainstorming, Leadership, Company Management
 
@@ -27,7 +27,7 @@ subtitle: Developer | CEO | Creative
 
 #### CEO: Apr ‘16 - Present
 
-- Restructured company’s organization, management team, and direction moving forward
+- Restructured company’s organization, management team, and direction
 - Resolved financial issues with the company and pushed the company forward
 - Dismissed team members that were either not contributing in a significant way or were detrimental to the company’s success
 - Recruited team members that would help bring the company to success
@@ -67,7 +67,7 @@ subtitle: Developer | CEO | Creative
 
 ## Background
 
-When I was hired at both Zappend & Credntia, I started as an iOS Developer. Within 4 months at Zappend and less than a year at Credntia, I became Project Manager, later stepping into the CEO role at Credntia. I handled both task management and management of the teams for iOS, Android, front-end, and back-end development. I also led in the development of ideas & features, as well as maintaining quality in our work. I've worked with clients and customers alike to ensure an excellent user experience.
+I am completely self-taught. When I was hired at both Zappend & Credntia, I started as an iOS Developer. Within 4 months at Zappend and less than a year at Credntia, I became Project Manager, later stepping into the CEO role at Credntia. I handled both task management and management of the teams for iOS, Android, front-end, and back-end development. I also led in the development of ideas & features, as well as maintaining quality in our work. I've worked with clients and customers alike to ensure an excellent user experience.
 
 ## References
 
