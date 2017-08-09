@@ -1,4 +1,8 @@
 socials:
+- title: Email
+  username: cody@codywinton.com
+  url: "mailto:"
+  icon: "\uf003"
 - title: Facebook
   username: codytwinton
   url: http://facebook.com/
