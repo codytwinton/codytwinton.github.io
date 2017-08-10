@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<article class="page">
+<div class="page-content">
 	{{ content }}
 
 	{% if page.action_button.link %}
@@ -13,4 +13,4 @@ layout: default
 		{% endif %}
 		<a href="{{ page.action_button.link | escape }}" class="button" target={{ button_target }}>{{ page.action_button.title }}</a>
 	{% endif %}
-</article>
+</div>

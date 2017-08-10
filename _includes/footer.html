@@ -1,7 +1,27 @@
-<footer class="main-footer content-wrapper">
-    <h3>Connect</h3>
-    <br>
-    {% for social in site.data.info.socials %}
-    <a href={{ social.url | append: social.username | escape }} class="social" alt={{ social.title | escape }} target="_blank">{{ social.icon }}</a>
-    {% endfor %}
+<footer class="content-wrapper main-footer">
+  <hr>
+  <ul class="main-footer-list">
+    <li class="contact-list-item">
+        {% for my_page in site.pages %}
+        {% if my_page.is_header_page %}
+            <a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+            <br>
+        {% endif %}
+        {% endfor %}
+    </li>
+    
+    <li class="contact-list-item">
+        {% for item in site.data.info.contacts %}
+            <a href={{ item.url | append: item.username | escape }} class="contact-list" alt={{ item.title | escape }} target="_blank">{{ item.title }}</a>
+            <br>
+        {% endfor %}
+    </li>
+
+    <li class="contact-list-item">
+        {% for item in site.data.info.socials %}
+            <a href={{ item.url | append: item.username | escape }} class="contact-list" alt={{ item.title | escape }} target="_blank">{{ item.title }}</a>
+            <br>
+        {% endfor %}
+    </li>
+  </ul>
 </footer>

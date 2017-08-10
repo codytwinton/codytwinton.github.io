@@ -1,37 +1,30 @@
-socials:
-- title: Email
+contacts:
+- title: Contact Me
   username: cody@codywinton.com
   url: "mailto:"
-  icon: "\uf003"
-- title: Facebook
-  username: codytwinton
-  url: http://facebook.com/
-  icon: "\uf09a"
-- title: Twitter
-  username: codytwinton
-  url: http://twitter.com/
-  icon: "\uf099"
-- title: Instagram
-  username: codytwinton
-  url: http://instagram.com/
-  icon: "\uf16d"
-- title: Medium
+- title: Blog
   username: codytwinton
   url: https://medium.com/@
-  icon: "\uf23a"
-- title: LinkedIn
-  username: codytwinton
-  url: https://www.linkedin.com/in/
-  icon: "\uf0e1"
 - title: GitHub
   username: codytwinton
   url: https://github.com/
-  icon: "\uf09b"
-- title: Angel List
-  username: codytwinton
-  url: https://angel.co/
-  icon: "\uf209"
 - title: Stack Overflow
   username: 2344897
   url: https://stackoverflow.com/users/
-  icon: "\uf16c"
+
+socials:
+- title: Facebook
+  username: codytwinton
+  url: http://facebook.com/
+- title: Twitter
+  username: codytwinton
+  url: http://twitter.com/
+- title: Instagram
+  username: codytwinton
+  url: http://instagram.com/
+- title: LinkedIn
+  username: codytwinton
+  url: https://www.linkedin.com/in/
+- title: Angel List
+  username: codytwinton
+  url: https://angel.co/

@@ -4,7 +4,6 @@ position: 1
 subtitle: Developer | CEO | Creative
 is_header_page: true
 ---
-
 # Skills
 
 - **Languages:** Swift, Objective-C, JavaScript, HTML, CSS, TypeScript

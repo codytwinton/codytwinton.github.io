@@ -4,14 +4,12 @@
   {% include head.html %}
 
   <body>
-    {% include header.html %}
-    
     <main class="content-wrapper">
+      {% include header.html %}
       {{ content }}
+      {% include footer.html %}
     </main>
 
-	{% include footer.html %}
-	
-	<script src="{{ site.baseurl }}/scripts/all.js"></script>
+    <script src="{{ site.baseurl }}/scripts/all.js"></script>
   </body>
 </html>

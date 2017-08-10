@@ -1,40 +1,28 @@
-$color-white: #fff;
-$color-black: #000;
-$color-off-white: #ddd;
-$color-light-grey: #b9b9b9;
-$color-dark-grey: #454545;
-$color-dark-grey-link: #333;
-$color-blue: #007496;
+$color-background: #fff;
+$color-text: #454545;
+$color-primary: #007496;
+$color-primary-alpha: rgba(0, 116, 150, 0.5);
+$color-hr: #aeaeae;
 
-$text-font: 'Gotham Medium', sans-serif;
-$social-font: 'FontAwesome';
+$text-font: 'Source Code Pro', monospace;
+$header-font: 'Source Sans Pro', sans-serif;
 
-$normal-font-weight: 600;
+$normal-font-weight: 400;
+$header-font-weight: 600;
 $bold-font-weight: 700;
 
-$font-size-h1: 38px;
-$font-size-h2: 33px;
-$font-size-h3: 30px;
-$font-size-h4: 27px;
-$font-size-h5: 24px;
-$font-size-h6: 20px;
-$font-size-body: 16px;
+$font-size-offset: 7;
+
+$font-size-header: 40px;
+$font-size-h1: $font-size-header - ($font-size-offset * 0) + 2;
+$font-size-h2: $font-size-header - ($font-size-offset * 1);
+$font-size-h3: $font-size-header - ($font-size-offset * 2);
+$font-size-h4: $font-size-header - ($font-size-offset * 3);
+$font-size-h5: $font-size-header - ($font-size-offset * 4);
+$font-size-h6: $font-size-header - ($font-size-offset * 5);
+
+$font-size-body: 18px;
 $font-size-button: 12px;
 $font-size-social: 15px;
 
-$body-max-width: 1680px;
-$button-height: 40px;
-
-$lg-break-point: 1200px;
-$break-point: 960px;
-$md-break-point: 640px;
-$sm-break-point: 320px;
-
-$aside-width: 35%;
-$content-wrapper-width: 62%;
-$article-max-width: 740px;
-$post-margin-left: 38%;
-
-$img: "../img";
-$js: "../js";
-$font: "../font";
+$profile-image-height: 160px;
