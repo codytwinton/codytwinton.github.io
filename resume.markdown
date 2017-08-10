@@ -2,8 +2,13 @@
 title: Resume
 position: 1
 subtitle: Developer | CEO | Creative
-is_header_page: true
+is_footer_page: true
 ---
+
+# Background
+
+I am completely self-taught. When I was hired at both Zappend & Credntia, I started as an iOS Developer. Within 4 months at Zappend and less than a year at Credntia, I became Project Manager, later stepping into the CEO role at Credntia. I handled both task management and management of the teams for iOS, Android, front-end, and back-end development. I also led in the development of ideas & features, as well as maintaining quality in our work. I've worked with clients and customers alike to ensure an excellent user experience.
+
 # Skills
 
 - **Languages:** Swift, Objective-C, JavaScript, HTML, CSS, TypeScript
@@ -61,10 +66,6 @@ is_header_page: true
 - Created and maintained the Jumpy Fish iOS App, as well as several other iOS Native projects.
 - Met with clients and gathered requirements for projects
 - Developed games using sprites
-
-# Background
-
-I am completely self-taught. When I was hired at both Zappend & Credntia, I started as an iOS Developer. Within 4 months at Zappend and less than a year at Credntia, I became Project Manager, later stepping into the CEO role at Credntia. I handled both task management and management of the teams for iOS, Android, front-end, and back-end development. I also led in the development of ideas & features, as well as maintaining quality in our work. I've worked with clients and customers alike to ensure an excellent user experience.
 
 # References
 

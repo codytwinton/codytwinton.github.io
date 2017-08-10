@@ -2,12 +2,10 @@
   <hr>
   <ul class="main-footer-list">
     <li class="contact-list-item">
-        {% for my_page in site.pages %}
-        {% if my_page.is_header_page %}
+        {% for my_page in site.pages %} {% if my_page.is_footer_page && my_page.title %}
             <a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
             <br>
-        {% endif %}
-        {% endfor %}
+        {% endif %} {% endfor %}
     </li>
     
     <li class="contact-list-item">
