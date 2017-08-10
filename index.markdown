@@ -1,7 +1,6 @@
 ---
 title: Home
 position: 0
-subtitle: Developer | CEO | Creative
 display_title: Cody Winton
 is_footer_page: true
 redirect_from:

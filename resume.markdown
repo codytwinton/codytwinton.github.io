@@ -1,7 +1,6 @@
 ---
 title: Resume
 position: 1
-subtitle: Developer | CEO | Creative
 is_footer_page: true
 action_button:
   title: Contact Me
