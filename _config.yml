@@ -14,24 +14,18 @@ defaults:
     path: ''
   values:
     layout: page
+    display_title: 
     subtitle: 
-    hero_image: 
-    is_footer_page: false
     action_button:
       title: 
       link: 
+    is_footer_page: false
 - scope:
     type: posts
     path: ''
   values:
     permalink: "/blog/:title/"
     layout: post
-    subtitle: 
-    hero_image: 
-    author: Cody Winton
-    action_button:
-      title: 
-      link: 
 url: http://codywinton.com
 email: cody@codywinton.com
 description: 'Cody Winton: I''m a multi-stack developer & a creative problem solver.
