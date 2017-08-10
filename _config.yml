@@ -26,8 +26,8 @@ defaults:
     subtitle: 
     hero_image: "/uploads/hero.jpg"
     is_header_page: false
-    action:
-    - title: 
+    action_button:
+      title: 
       link: 
 - scope:
     path: ''
@@ -38,8 +38,8 @@ defaults:
     subtitle: 
     hero_image: "/uploads/hero.jpg"
     author: Cody Winton
-    action:
-    - title: 
+    action_button:
+      title: 
       link: 
 url: http://codywinton.com
 email: cody@codywinton.com
