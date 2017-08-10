@@ -11,8 +11,11 @@
   text-align: center;
   text-transform: uppercase;
   color: $color-primary;
-  font-size: $font-size-title;
   margin: 0px;
+
+  h1 {
+    font-size: $font-size-title;
+  }
 }
 
 .profile-image {
