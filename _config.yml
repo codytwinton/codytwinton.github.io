@@ -10,8 +10,8 @@ collections:
     output: true
 defaults:
 - scope:
-    type: pages
     path: ''
+    type: pages
   values:
     layout: page
     display_title: 
@@ -21,8 +21,8 @@ defaults:
       link: 
     is_footer_page: false
 - scope:
-    type: posts
     path: ''
+    type: posts
   values:
     permalink: "/blog/:title/"
     layout: post
