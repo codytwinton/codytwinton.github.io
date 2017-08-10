@@ -2,9 +2,6 @@
 title: Cody Winton
 timezone: America/Chicago
 collections:
-  authors:
-    title: Authors
-    output: false
   posts:
     title: Posts
     output: true
@@ -13,30 +10,24 @@ collections:
     output: true
 defaults:
 - scope:
-    path: ''
-    type: authors
-  values:
-    layout: page
-    image: 
-- scope:
-    path: ''
     type: pages
+    path: ''
   values:
     layout: page
     subtitle: 
-    hero_image: "/uploads/hero.jpg"
+    hero_image: 
     is_header_page: false
     action_button:
       title: 
       link: 
 - scope:
-    path: ''
     type: posts
+    path: ''
   values:
     permalink: "/blog/:title/"
     layout: post
     subtitle: 
-    hero_image: "/uploads/hero.jpg"
+    hero_image: 
     author: Cody Winton
     action_button:
       title: 
