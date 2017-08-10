@@ -9,21 +9,21 @@
 
     <li class="contact-list-item">
         {% for item in site.data.info.column1 %}
-            <a href={{ item.url | append: item.username | escape }} class="contact-list" alt={{ item.title | escape }} target="_blank">{{ item.title }}</a>
+            <a href={{ item.url | append: item.username | escape }} class="contact-list" target="_blank">{{ item.title }}</a>
             <br>
         {% endfor %}
     </li>
     
     <li class="contact-list-item">
         {% for item in site.data.info.column2 %}
-            <a href={{ item.url | append: item.username | escape }} class="contact-list" alt={{ item.title | escape }} target="_blank">{{ item.title }}</a>
+            <a href={{ item.url | append: item.username | escape }} class="contact-list" target="_blank">{{ item.title }}</a>
             <br>
         {% endfor %}
     </li>
 
     <li class="contact-list-item">
         {% for item in site.data.info.column3 %}
-            <a href={{ item.url | append: item.username | escape }} class="contact-list" alt={{ item.title | escape }} target="_blank">{{ item.title }}</a>
+            <a href={{ item.url | append: item.username | escape }} class="contact-list" target="_blank">{{ item.title }}</a>
             <br>
         {% endfor %}
     </li>
