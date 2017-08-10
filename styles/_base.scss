@@ -53,8 +53,8 @@ body {
   -font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 a {
@@ -74,6 +74,10 @@ header {
   text-align: center;
   text-transform: uppercase;
   color: $color-primary;
+
+  h1 {
+    font-size: $font-size-title;
+  }
 }
 
 footer {
@@ -105,12 +109,12 @@ h1 {
 
 h2 {
   font-size: $font-size-h2;
-  margin: 24px 0px 0px;
+  margin: 28px 0px 0px;
 }
 
 h3 {
   font-size: $font-size-h3;
-  margin: 16px 0px 0px;
+  margin: 12px 0px 0px;
 }
 
 h4 {

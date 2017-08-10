@@ -14,7 +14,9 @@ $bold-font-weight: 700;
 $font-size-offset: 7;
 
 $font-size-header: 40px;
-$font-size-h1: $font-size-header - ($font-size-offset * 0) + 2;
+
+$font-size-title: $font-size-header + ($font-size-offset * 1);
+$font-size-h1: $font-size-header - ($font-size-offset * 0);
 $font-size-h2: $font-size-header - ($font-size-offset * 1);
 $font-size-h3: $font-size-header - ($font-size-offset * 2);
 $font-size-h4: $font-size-header - ($font-size-offset * 3);
