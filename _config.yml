@@ -35,9 +35,6 @@ author:
 google_analytics:
   tracking_id: UA-103616440-1
 logo: "/uploads/profile-image.jpg"
-sass:
-  sass_dir: styles/
-  style: compressed
 twitter:
   username: codytwinton
 social:
@@ -53,6 +50,9 @@ plugins:
 - jekyll-redirect-from
 - jekyll-seo-tag
 - jekyll-sitemap
+sass:
+  sass_dir: styles/
+  style: compressed
 baseurl: 
 markdown: kramdown
 permalink: pretty
