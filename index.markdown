@@ -15,4 +15,4 @@ action_button:
 
 I'm a multi-stack dev & creative problem-solver.
 
-I like working with cool stuff.
+I like working with cool stuff. Follow me everywhere @codytwinton
