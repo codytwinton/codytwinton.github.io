@@ -1,7 +1,7 @@
 ---
 title: TrueCoders
 date: 2017-11-19 13:44:00 -06:00
-position: 1
+position: 0
 website: http://truecoders.io
 jobs:
 - title: President & Technology Officer
