@@ -35,13 +35,6 @@ defaults:
     experience:
     - start_date: 
       type: 
-    work:
-    - company: 
-      link: 
-      job: 
-      start_date: 
-      end_date: 
-      body: 
 - scope:
     path: ''
     type: posts
