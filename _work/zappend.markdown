@@ -3,7 +3,6 @@ title: Zappend
 date: 2017-11-19 03:39:00 -06:00
 position: 3
 display_title: Zappend Inc.
-subtitle: An App Development Company
 link: https://itunes.apple.com/app/id827138523
 jobs:
 - title: Project Manager & Lead Engineer
