@@ -30,16 +30,14 @@ defaults:
       - title: 
         rank: 0
     experience:
+    - start_date:
+      body:
+    work:
     - company: 
-      job_title: 
+      link: 
+      job: 
       start_date: 
       end_date: 
-      body: 
-    education:
-    - school: 
-      degree: 
-      graduation_date: 
-      location: 
       body: 
 - scope:
     path: ''

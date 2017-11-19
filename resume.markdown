@@ -96,10 +96,7 @@ skills:
   - skill: Company Management
     rank: 0
 experience:
-- company: 
-  job_title: 
-  start_date: 2010-01-01 00:00:00 -06:00
-  end_date: 
+- start_date: 2010-01-01 00:00:00 -06:00
   body: Development and engineering experience building applications, structuring
     databases and testing, and deploying projects
 - start_date: 2013-01-01 00:00:00 -06:00
