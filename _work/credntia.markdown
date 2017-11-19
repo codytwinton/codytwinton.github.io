@@ -3,7 +3,7 @@ title: Credntia
 date: 2017-11-19 03:19:00 -06:00
 position: 0
 display_title: Credntia LLC
-url: http://credntia.com
+website: http://credntia.com
 jobs:
 - title: CEO
   start_date: 2016-04-15 00:00:00 -05:00

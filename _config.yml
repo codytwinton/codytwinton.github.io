@@ -25,7 +25,7 @@ defaults:
     type: work
   values:
     display_title: 
-    url: 
+    website: 
     jobs:
     - title: 
       start_date: 
