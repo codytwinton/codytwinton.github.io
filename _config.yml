@@ -7,7 +7,7 @@ collections:
     output: true
   skill-categories:
     title: Skill_Categories
-    output: true
+    output: false
   skills:
     title: Skills
     output: false
