@@ -15,10 +15,10 @@ defaults:
   values:
     layout: page
     display_title: 
+    is_footer: false
     action_button:
       title: 
       link: 
-    is_footer_page: false
 - scope:
     path: ''
     type: posts
