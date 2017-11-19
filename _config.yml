@@ -5,9 +5,6 @@ collections:
   posts:
     title: Posts
     output: true
-  skill-categories:
-    title: Skill_Categories
-    output: false
   skills:
     title: Skills
     output: false
