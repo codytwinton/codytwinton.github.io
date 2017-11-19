@@ -1,6 +1,7 @@
 ---
 title: Bringin Up Baby
 date: 2017-11-19 03:36:00 -06:00
+position: 1
 display_title: Bringin’ Up Baby
 subtitle: Never Miss a Moment
 link: http://bringinupbaby.com/

@@ -1,6 +1,7 @@
 ---
 title: SwiftyVIPER
 date: 2017-11-19 03:37:00 -06:00
+position: 3
 subtitle: Swift Interaction with VIPER Architecture
 link: https://github.com/codytwinton/SwiftyVIPER
 jobs:

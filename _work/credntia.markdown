@@ -1,6 +1,7 @@
 ---
 title: Credntia
 date: 2017-11-19 03:19:00 -06:00
+position: 0
 display_title: Credntia LLC
 subtitle: Your Identity Wherever You Are
 link: http://credntia.com/
