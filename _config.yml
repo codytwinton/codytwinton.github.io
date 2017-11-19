@@ -16,6 +16,8 @@ defaults:
     path: ''
     type: work
   values:
+    display_title: 
+    subtitle: 
     link: 
     jobs:
     - title: 
