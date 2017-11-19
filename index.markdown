@@ -2,10 +2,10 @@
 title: Home
 position: 0
 display_title: Cody Winton
+is_footer: true
 action_button:
   title: Current Work
   link: http://truecoders.io
-is_footer: true
 redirect_from:
 - "/about/"
 - "/home/"
