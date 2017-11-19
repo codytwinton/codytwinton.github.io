@@ -1,10 +1,10 @@
 ---
 title: Resume
 position: 1
-is_footer_page: true
 action_button:
   title: Contact Me
   link: mailto:cody@codywinton.com
+is_footer_page: true
 ---
 
 # Background
@@ -71,8 +71,4 @@ I am completely self-taught. When I was hired at both Zappend & Credntia, I star
 
 # References
 
-* **[Daniel Walsh](mailto:danielwdirect@gmail.com)**: CMO at Credntia
-
-* **[Mike Oakman](mailto:mikeoakman@fourmetrics.com)**: Advisor at Credntia
-
-* **[Preston Cone](mailto:prestoncone@gmail.com)**: Manager at Bringin Up Baby
+Available upon request
