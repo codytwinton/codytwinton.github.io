@@ -9,13 +9,13 @@ layout: default
 	{{ content }}
 
 	<p>
-    {% if page.action_button.link %}
-      {% if page.action_button.link contains "http" %}
+    {% if page.call_to_action.url %}
+      {% if page.call_to_action.url contains "http" %}
         {% assign button_target = "_blank" %}
       {% else %}
         {% assign button_target = "_self" %}
       {% endif %}
-      <a href="{{ page.action_button.link | escape }}" class="button" target={{ button_target }}>{{ page.action_button.title }}</a>
+      <a href="{{ page.call_to_action.url | escape }}" class="button" target={{ button_target }}>{{ page.call_to_action.title }}</a>
     {% endif %}
   </p>
 </div>

@@ -2,9 +2,6 @@
 title: Resume
 position: 1
 is_footer: true
-action_button:
-  title: Contact Me
-  link: mailto:cody@codywinton.com
 skills:
 - type: Languages
   values:

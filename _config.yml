@@ -25,7 +25,7 @@ defaults:
     type: work
   values:
     display_title: 
-    link: 
+    url: 
     jobs:
     - title: 
       start_date: 
@@ -38,9 +38,9 @@ defaults:
     layout: page
     display_title: 
     is_footer: false
-    action_button:
+    call_to_action:
       title: 
-      link: 
+      url: 
 - scope:
     path: resume.markdown
     type: pages
@@ -67,6 +67,8 @@ description: 'Cody Winton: I''m a multi-stack developer & a creative problem sol
 author:
   picture: "/uploads/profile-image.jpg"
   twitter: codytwinton
+current_work:
+  url: http://truecoders.io
 google_analytics:
   tracking_id: UA-103616440-1
 logo: "/uploads/profile-image.jpg"

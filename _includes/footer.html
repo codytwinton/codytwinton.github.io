@@ -1,7 +1,7 @@
 <div class="container">
   <hr/>
 
-  <footer style="text-align:center;">
+  <footer class="footer" style="text-align:center;">
     <div class="row">
       <div class="col-sm">
         <ul class="list-inline">
@@ -11,6 +11,10 @@
             <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
           </li>
           {% endfor %}
+
+          <li class="list-inline-item" style="padding: 8px;">
+            <a href="{{ site.current_work.url | relative_url }}">Current Work</a>
+          </li>
         </ul>
       </div>
     </div>

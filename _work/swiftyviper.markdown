@@ -2,7 +2,7 @@
 title: SwiftyVIPER
 date: 2017-11-19 03:37:00 -06:00
 position: 2
-link: https://github.com/codytwinton/SwiftyVIPER
+url: https://github.com/codytwinton/SwiftyVIPER
 jobs:
 - title: Creator
   start_date: 2016-04-01 00:00:00 -05:00
