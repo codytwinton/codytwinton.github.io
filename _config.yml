@@ -51,7 +51,6 @@ plugins:
 - jekyll-seo-tag
 - jekyll-sitemap
 sass:
-  sass_dir: styles/
   style: compressed
 baseurl: 
 markdown: kramdown

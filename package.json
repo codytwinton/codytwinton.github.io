@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "Cody Winton's Personal Website",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "copyBootstrap": "cpx \"node_modules/bootstrap/dist/js/bootstrap.min.js\" assets/js/bootstrap && cpx \"node_modules/bootstrap/dist/js/bootstrap.min.js.map\" assets/js/bootstrap && cpx \"node_modules/bootstrap/scss/**/*.scss\" _sass/bootstrap",
+    "copyjQueryJS": "cpx \"node_modules/jquery/dist/jquery.min.js\" assets/js/jquery",
+    "copyPopperJS": "cpx \"node_modules/popper.js/dist/umd/popper.min.js\" assets/js/popper && cpx \"node_modules/popper.js/dist/umd/popper.min.js.map\" assets/js/popper",
+    "copyAll": "npm run copyBootstrap && npm run copyjQueryJS && npm run copyPopperJS",
+    "prep": "npm run copyAll && bundle install"
   },
   "repository": {
     "type": "git",
@@ -17,5 +21,13 @@
   "bugs": {
     "url": "https://github.com/codytwinton/codywinton.com/issues"
   },
-  "homepage": "http://codywinton.com"
+  "homepage": "http://codywinton.com",
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta.2",
+    "jquery": "^3.2.1",
+    "popper.js": "^1.13.0"
+  },
+  "devDependencies": {
+    "cpx": "^1.5.0"
+  }
 }
