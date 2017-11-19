@@ -1,7 +1,7 @@
 ---
 title: Bringin Up Baby
 date: 2017-11-19 03:36:00 -06:00
-position: 1
+position: 2
 display_title: Bringin’ Up Baby
 website: http://bringinupbaby.com
 jobs:
