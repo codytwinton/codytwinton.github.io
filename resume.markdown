@@ -6,21 +6,63 @@ action_button:
   title: Contact Me
   link: mailto:cody@codywinton.com
 skills:
-- title: Languages
+- type: Languages
   values:
-  - title: Swift
+  - skill: Swift
     rank: 0
-  - title: C#
+  - skill: C#
     rank: 0
-  - title: Objective-C
+  - skill: Objective-C
     rank: 0
-  - title: JavaScript
+  - skill: JavaScript
     rank: 0
-  - title: HTML
+  - skill: HTML
     rank: 0
-  - title: CSS
+  - skill: CSS
     rank: 0
-  - title: TypeScript
+  - skill: TypeScript
+    rank: 0
+- type: Paradigms
+  values:
+  - skill: iOS
+    rank: 0
+  - skill: Xcode
+    rank: 0
+  - skill: Node.js
+    rank: 0
+  - skill: JAMstack
+    rank: 0
+  - skill: Git
+    rank: 0
+  - skill: Core Data
+    rank: 0
+  - skill: REST
+    rank: 0
+  - skill: Twitter & Facebook SDKs
+    rank: 0
+  - skill: Cocoapods
+    rank: 0
+  - skill: Realm Mobile Database
+    rank: 0
+  - skill: SQLite
+    rank: 0
+  - skill: Continuous Integration
+    rank: 0
+  - skill: CLI
+    rank: 0
+  - skill: Angular
+    rank: 0
+  - skill: Firebase
+    rank: 0
+  - skill: Google Cloud
+    rank: 0
+  - skill: iOS App Store Submission
+    rank: 0
+  - skill: Google Play Store Submission
+    rank: 0
+  - skill: Open Source
+    rank: 0
+  - skill: fastlane
     rank: 0
 ---
 
