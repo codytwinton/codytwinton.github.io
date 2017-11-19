@@ -19,7 +19,7 @@ defaults:
     path: ''
     type: skills
   values:
-    rank: 
+    rank: 0
 - scope:
     path: ''
     type: work
