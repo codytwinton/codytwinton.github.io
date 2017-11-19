@@ -8,8 +8,9 @@ action_button:
 skills:
 - type: Languages
   values:
-  - skill: Swift
+  - title: 
     rank: 0
+    skill: Swift
   - skill: C#
     rank: 0
   - skill: Objective-C
@@ -94,6 +95,21 @@ skills:
     rank: 0
   - skill: Company Management
     rank: 0
+experience:
+- company: 
+  job_title: 
+  start_date: 2010-01-01 00:00:00 -06:00
+  end_date: 
+  body: Development and engineering experience building applications, structuring
+    databases and testing, and deploying projects
+- start_date: 2013-01-01 00:00:00 -06:00
+  body: Designing and implementing UI and UX paradigms like Material Design and Apple
+    Human Design Guidelines
+- start_date: 2013-01-01 00:00:00 -06:00
+  body: Handling customer support and managing client relations
+- start_date: 2014-01-01 00:00:00 -06:00
+  body: Managing and leading a team in development, design, financials, and communications
+    as well as various administrative tasks associated with running a company
 ---
 
 I am completely self-taught. When I was hired at both Zappend & Credntia, I started as an iOS Developer. Within 4 months at Zappend and less than a year at Credntia, I became Project Manager, later stepping into the CEO role at Credntia. I handled both task management and management of the teams for iOS, Android, front-end, and back-end development. I also led in the development of ideas & features, as well as maintaining quality in our work. I've worked with clients and customers alike to ensure an excellent user experience.
