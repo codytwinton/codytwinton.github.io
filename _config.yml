@@ -27,7 +27,7 @@ defaults:
     skills:
     - title: Languages
       values:
-      - title:
+      - title: 
         rank: 0
     experience:
     - company: 
