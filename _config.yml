@@ -31,7 +31,7 @@ defaults:
         rank: 0
     experience:
     - start_date:
-      body:
+      type:
     work:
     - company: 
       link: 

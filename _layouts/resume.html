@@ -20,6 +20,17 @@ layout: default
 
   <h1>Experience</h1>
 
+  <ul>
+    {% assign current = site.time | date: "%Y" %}
+    
+    {% for experience in page.experience %}
+    {% assign start = experience.start_date | date: "%Y" %}
+    <li>
+      <strong>{{ current | minus: start }}+ years:</strong> {{ experience.type }}
+    </li>
+    {% endfor %}
+  </ul>
+
   <h1>References</h1>
   
   <p>Available upon request</p>

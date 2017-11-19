@@ -97,15 +97,15 @@ skills:
     rank: 0
 experience:
 - start_date: 2010-01-01 00:00:00 -06:00
-  body: Development and engineering experience building applications, structuring
+  type: Development and engineering experience building applications, structuring
     databases and testing, and deploying projects
 - start_date: 2013-01-01 00:00:00 -06:00
-  body: Designing and implementing UI and UX paradigms like Material Design and Apple
+  type: Designing and implementing UI and UX paradigms like Material Design and Apple
     Human Design Guidelines
 - start_date: 2013-01-01 00:00:00 -06:00
-  body: Handling customer support and managing client relations
+  type: Handling customer support and managing client relations
 - start_date: 2014-01-01 00:00:00 -06:00
-  body: Managing and leading a team in development, design, financials, and communications
+  type: Managing and leading a team in development, design, financials, and communications
     as well as various administrative tasks associated with running a company
 ---
 
