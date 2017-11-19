@@ -1,0 +1,21 @@
+{
+  "name": "codywinton.com",
+  "version": "1.0.0",
+  "description": "Cody Winton's Personal Website",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codytwinton/codywinton.com.git"
+  },
+  "keywords": [
+    "jekyll"
+  ],
+  "author": "Cody Winton <cody.t.winton@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codytwinton/codywinton.com/issues"
+  },
+  "homepage": "http://codywinton.com"
+}
