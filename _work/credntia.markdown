@@ -1,6 +1,8 @@
 ---
-title: Credntia LLC
+title: Credntia
 date: 2017-11-19 03:19:00 -06:00
+display_title: Credntia LLC
+subtitle: Your Identity Wherever You Are
 link: http://credntia.com/
 jobs:
 - title: CEO
@@ -20,4 +22,3 @@ jobs:
     * Created and managed UI and UX Design on both apps
 ---
 
-Here's Credntia LLC
