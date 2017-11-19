@@ -1,21 +1,36 @@
+- title: Email
+  username: cody@codywinton.com
+  url: "mailto:"
+  fa_icon: fa-envelope
 - title: Facebook
   username: codytwinton
   url: http://facebook.com/
+  fa_icon: fa-facebook
 - title: Twitter
   username: codytwinton
   url: http://twitter.com/
+  fa_icon: fa-twitter
 - title: Instagram
   username: codytwinton
   url: http://instagram.com/
-- title: GitHub
+  fa_icon: fa-instagram
+- title: Medium
   username: codytwinton
-  url: https://github.com/
-- title: Stack Overflow
-  username: 2344897
-  url: https://stackoverflow.com/users/
+  url: https://medium.com/@
+  fa_icon: fa-medium
 - title: LinkedIn
   username: codytwinton
   url: https://www.linkedin.com/in/
+  fa_icon: fa-linkedin
+- title: GitHub
+  username: codytwinton
+  url: https://github.com/
+  fa_icon: fa-github
+- title: Stack Overflow
+  username: 2344897
+  url: https://stackoverflow.com/users/
+  fa_icon: fa-stack-overflow
 - title: Angel List
   username: codytwinton
   url: https://angel.co/
+  fa_icon: fa-angellist

@@ -1,33 +1,32 @@
 <div class="container">
-  <footer>
-    <ul class="main-footer-list">
-      <li class="contact-list-item">
-          {% for my_page in site.pages %} {% if my_page.is_footer_page %}
-              <a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-              <br>
-          {% endif %} {% endfor %}
-      </li>
+  <hr/>
 
-      <li class="contact-list-item">
-          {% for item in site.data.info.column1 %}
-              <a href={{ item.url | append: item.username | escape }} class="contact-list" target="_blank">{{ item.title }}</a>
-              <br>
+  <footer style="text-align:center;">
+    <div class="row">
+      <div class="col-sm">
+        <ul class="list-inline">
+          {% assign pages = site.pages | where: "is_footer_page", true | sort: 'position' %}
+          {% for page in pages %}
+          <li class="list-inline-item" style="padding: 8px;">
+            <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
+          </li>
           {% endfor %}
-      </li>
-      
-      <li class="contact-list-item">
-          {% for item in site.data.info.column2 %}
-              <a href={{ item.url | append: item.username | escape }} class="contact-list" target="_blank">{{ item.title }}</a>
-              <br>
-          {% endfor %}
-      </li>
+        </ul>
+      </div>
+    </div>
 
-      <li class="contact-list-item">
-          {% for item in site.data.info.column3 %}
-              <a href={{ item.url | append: item.username | escape }} class="contact-list" target="_blank">{{ item.title }}</a>
-              <br>
+    <div class="row">
+      <div class="col-sm">
+        <ul class="list-inline">
+          {% for item in site.data.socials %}
+          <li class="list-inline-item" style="padding: 8px;">
+            <a href={{ item.url | append: item.username | escape }} target="_blank">
+              <i class="fa {{ item.fa_icon }} fa-lg"></i>
+            </a>
+          </li>
           {% endfor %}
-      </li>
-    </ul>
+        </ul>
+      </div>
+    </div>
   </footer>
 </div>
