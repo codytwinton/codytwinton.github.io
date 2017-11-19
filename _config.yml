@@ -20,6 +20,28 @@ defaults:
       title: 
       link: 
 - scope:
+    path: resume.markdown
+    type: pages
+  values:
+    layout: resume
+    skills:
+    - title: Languages
+      values:
+      - title:
+        rank: 0
+    experience:
+    - company: 
+      job_title: 
+      start_date: 
+      end_date: 
+      body: 
+    education:
+    - school: 
+      degree: 
+      graduation_date: 
+      location: 
+      body: 
+- scope:
     path: ''
     type: posts
   values:

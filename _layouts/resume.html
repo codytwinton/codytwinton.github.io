@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+{% include header.html %}
+
+<div class="container">
+
+	{{ content }}
+
+	<p>
+    {% if page.action_button.link %}
+      {% if page.action_button.link contains "http" %}
+        {% assign button_target = "_blank" %}
+      {% else %}
+        {% assign button_target = "_self" %}
+      {% endif %}
+      <a href="{{ page.action_button.link | escape }}" class="button" target={{ button_target }}>{{ page.action_button.title }}</a>
+    {% endif %}
+  </p>
+</div>
+
+{% include footer.html %}
