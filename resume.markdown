@@ -64,6 +64,36 @@ skills:
     rank: 0
   - skill: fastlane
     rank: 0
+- type: Patterns
+  values:
+  - skill: Object and Protocol Oriented Programming
+    rank: 0
+  - skill: MVC and VIPER Architecture
+    rank: 0
+  - skill: Dependency Injection
+    rank: 0
+  - skill: Unit Testing
+    rank: 0
+  - skill: HIPAA Compliance
+    rank: 0
+  - skill: AES Encryption
+    rank: 0
+  - skill: Documentation
+    rank: 0
+- type: Other
+  values:
+  - skill: SDLC
+    rank: 0
+  - skill: UI and UX Design
+    rank: 0
+  - skill: Financials
+    rank: 0
+  - skill: Brainstorming
+    rank: 0
+  - skill: Leadership
+    rank: 0
+  - skill: Company Management
+    rank: 0
 ---
 
 I am completely self-taught. When I was hired at both Zappend & Credntia, I started as an iOS Developer. Within 4 months at Zappend and less than a year at Credntia, I became Project Manager, later stepping into the CEO role at Credntia. I handled both task management and management of the teams for iOS, Android, front-end, and back-end development. I also led in the development of ideas & features, as well as maintaining quality in our work. I've worked with clients and customers alike to ensure an excellent user experience.

@@ -6,7 +6,25 @@ layout: default
 
 <div class="container">
 
-	{{ content }}
+  <h1>Skills</h1>
+
+  <ul>
+    {% for skill in page.skills %}
+    {% assign values = skill.values | map: 'skill' %}
+
+    <li>
+      <strong>{{ skill.type }}:</strong> {{ values | join: ', ' }}
+    </li>
+    {% endfor %}
+  </ul>
+
+  <h1>Experience</h1>
+
+  <h1>References</h1>
+  
+  <p>Available upon request</p>
+
+  {{ content }}
 
 	<p>
     {% if page.action_button.link %}
