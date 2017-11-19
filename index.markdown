@@ -5,7 +5,7 @@ display_title: Cody Winton
 action_button:
   title: Current Work
   link: http://truecoders.io
-is_footer_page: true
+is_footer: true
 redirect_from:
 - "/about/"
 - "/home/"
