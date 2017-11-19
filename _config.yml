@@ -18,7 +18,7 @@ defaults:
     action_button:
       title: 
       link: 
-    is_footer: false
+    is_footer_page: false
 - scope:
     path: ''
     type: posts
@@ -45,13 +45,13 @@ social:
   - https://www.linkedin.com/in/codytwinton
   - https://plus.google.com/+CodyWinton
   - https://github.com/codytwinton
+sass:
+  style: compressed
 plugins:
 - jekyll-feed
 - jekyll-redirect-from
 - jekyll-seo-tag
 - jekyll-sitemap
-sass:
-  style: compressed
 baseurl: 
 markdown: kramdown
 permalink: pretty
