@@ -4,12 +4,10 @@
   {% include head.html %}
 
   <body>
-    <main class="content-wrapper">
-      {% include header.html %}
-      {{ content }}
-      {% include footer.html %}
-    </main>
+    {{ content }}
 
-    <script src="{{ site.baseurl }}/scripts/all.js"></script>
+    {% for script in site.data.scripts %}
+    <script src="{{ script | relative_url }}"></script>
+    {% endfor %}
   </body>
 </html>
