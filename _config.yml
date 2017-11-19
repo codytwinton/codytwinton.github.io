@@ -30,8 +30,8 @@ defaults:
       - title: 
         rank: 0
     experience:
-    - start_date:
-      body:
+    - start_date: 
+      body: 
     work:
     - company: 
       link: 
