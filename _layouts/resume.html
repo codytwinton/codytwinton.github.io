@@ -34,7 +34,10 @@ layout: page
 <br/>
 <h1>Work</h1>
 
-{% for work in site.work %}
+{% assign works = site.work | sort: 'position' %}
+{% for work in works %}
+
+<br/>
 <h2>{{ work.display_title | default: work.title }}</h2>
 {% if work.website %}
 <a href="{{ work.website }}" target="_blank">{{ work.website | remove: "http://" | remove: "https://" | remove: "www." }}</a>
