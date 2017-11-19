@@ -4,27 +4,20 @@ layout: default
 
 {% include header.html %}
 
-<div class="page-content">
-
-	{% if page.display_title %}
-		<h1 class="page-title"> {{ page.display_title }} </h1>
-	{% else %}
-		<h1 class="page-title"> {{ page.title }} </h1>
-	{% endif %}
+<div class="container">
 
 	{{ content }}
 
-	<br>
-	<br>
-
-	{% if page.action_button.link %}
-		{% if page.action_button.link contains "http" %}
-			{% assign button_target = "_blank" %}
-		{% else %}
-			{% assign button_target = "_self" %}
-		{% endif %}
-		<a href="{{ page.action_button.link | escape }}" class="button" target={{ button_target }}>{{ page.action_button.title }}</a>
-	{% endif %}
+	<p>
+    {% if page.action_button.link %}
+      {% if page.action_button.link contains "http" %}
+        {% assign button_target = "_blank" %}
+      {% else %}
+        {% assign button_target = "_self" %}
+      {% endif %}
+      <a href="{{ page.action_button.link | escape }}" class="button" target={{ button_target }}>{{ page.action_button.title }}</a>
+    {% endif %}
+  </p>
 </div>
 
 {% include footer.html %}

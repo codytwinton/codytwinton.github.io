@@ -1,31 +1,33 @@
-<footer class="content-wrapper main-footer">
-  <ul class="main-footer-list">
-    <li class="contact-list-item">
-        {% for my_page in site.pages %} {% if my_page.is_footer_page %}
-            <a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-            <br>
-        {% endif %} {% endfor %}
-    </li>
+<div class="container">
+  <footer>
+    <ul class="main-footer-list">
+      <li class="contact-list-item">
+          {% for my_page in site.pages %} {% if my_page.is_footer_page %}
+              <a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+              <br>
+          {% endif %} {% endfor %}
+      </li>
 
-    <li class="contact-list-item">
-        {% for item in site.data.info.column1 %}
-            <a href={{ item.url | append: item.username | escape }} class="contact-list" target="_blank">{{ item.title }}</a>
-            <br>
-        {% endfor %}
-    </li>
-    
-    <li class="contact-list-item">
-        {% for item in site.data.info.column2 %}
-            <a href={{ item.url | append: item.username | escape }} class="contact-list" target="_blank">{{ item.title }}</a>
-            <br>
-        {% endfor %}
-    </li>
+      <li class="contact-list-item">
+          {% for item in site.data.info.column1 %}
+              <a href={{ item.url | append: item.username | escape }} class="contact-list" target="_blank">{{ item.title }}</a>
+              <br>
+          {% endfor %}
+      </li>
+      
+      <li class="contact-list-item">
+          {% for item in site.data.info.column2 %}
+              <a href={{ item.url | append: item.username | escape }} class="contact-list" target="_blank">{{ item.title }}</a>
+              <br>
+          {% endfor %}
+      </li>
 
-    <li class="contact-list-item">
-        {% for item in site.data.info.column3 %}
-            <a href={{ item.url | append: item.username | escape }} class="contact-list" target="_blank">{{ item.title }}</a>
-            <br>
-        {% endfor %}
-    </li>
-  </ul>
-</footer>
+      <li class="contact-list-item">
+          {% for item in site.data.info.column3 %}
+              <a href={{ item.url | append: item.username | escape }} class="contact-list" target="_blank">{{ item.title }}</a>
+              <br>
+          {% endfor %}
+      </li>
+    </ul>
+  </footer>
+</div>

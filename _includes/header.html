@@ -1,5 +1,13 @@
-<header class="content-wrapper">
-  <a href={{ "/" | relative_url }}>
-    <img class="profile-image" src={{ "uploads/profile-image.jpg" | relative_url }} alt="Profile Image">
-  </a>
-</header>
+<div class="container" style="padding: 40px 0;">
+  <header style="text-align:center;">
+    <a href={{ "/" | relative_url }}>
+      <img class="profile-image" src={{ "uploads/profile-image.jpg" | relative_url }} alt="Profile Image">
+    </a>
+
+    {% if page.display_title %}
+    <h1 class="page-title"> {{ page.display_title }} </h1>
+    {% else %}
+    <h1 class="page-title"> {{ page.title }} </h1>
+    {% endif %}
+  </header>
+</div>
