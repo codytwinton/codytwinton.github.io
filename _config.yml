@@ -23,7 +23,7 @@ defaults:
     path: resume.markdown
     type: pages
   values:
-    layout: resume
+    layout: page
     skills:
     - type: 
       values:
