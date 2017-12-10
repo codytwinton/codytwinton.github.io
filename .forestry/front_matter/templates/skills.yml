@@ -1,0 +1,37 @@
+---
+pages:
+- _skills/c-sharp.markdown
+- _skills/core-data.markdown
+- _skills/node-js.markdown
+- _skills/jamstack.markdown
+- _skills/git.markdown
+- _skills/xcode.markdown
+- _skills/ios.markdown
+- _skills/typescript.markdown
+- _skills/html.markdown
+- _skills/css.markdown
+- _skills/javascript.markdown
+- _skills/objective-c.markdown
+- _skills/swift.markdown
+hide_body: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
+- name: categories
+  label: Categories
+  type: tag_list
+  hidden: false
+  default: ''
+- name: rank
+  label: Rank
+  type: text
+  hidden: false
+  default: 0

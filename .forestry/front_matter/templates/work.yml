@@ -1,0 +1,64 @@
+---
+pages:
+- _work/truecoders.markdown
+- _work/zappend.markdown
+- _work/swiftyviper.markdown
+- _work/bringin-up-baby.markdown
+- _work/credntia.markdown
+hide_body: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
+- name: position
+  label: Position
+  type: text
+  hidden: false
+  default: ''
+- name: website
+  label: Website
+  type: text
+  hidden: false
+  default: 
+- name: jobs
+  label: Jobs
+  type: field_group_list
+  fields:
+  - name: title
+    label: Title
+    type: text
+    hidden: false
+    default: ''
+  - name: start_date
+    label: Start date
+    type: datetime
+    hidden: false
+    default: ''
+  - name: end_date
+    label: End date
+    type: datetime
+    hidden: false
+    default: ''
+  - name: body
+    label: Body
+    type: textarea
+    hidden: false
+    default: ''
+  hidden: false
+  default:
+  - title: 
+    start_date: 
+    end_date: 
+    body: 
+- name: display_title
+  label: Display title
+  type: text
+  hidden: false
+  default: 
