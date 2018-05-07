@@ -21,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/codytwinton/codywinton.com/issues"
   },
-  "homepage": "http://codywinton.com",
+  "homepage": "https://codywinton.com",
   "dependencies": {
     "bootstrap": "^4.0.0-beta.2",
     "fontawesome": "^4.7.2",
