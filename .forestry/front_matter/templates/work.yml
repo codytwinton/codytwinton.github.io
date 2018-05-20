@@ -7,7 +7,7 @@ fields:
   type: text
   hidden: false
   default: ''
-  description: e.g. Meals OnCol
+  description: e.g. Credntia
   config:
     required: true
 - name: subtitle
@@ -15,7 +15,7 @@ fields:
   type: text
   hidden: false
   default: 
-  description: e.g. Meals for patients
+  description: e.g. Your Identity Wherever You Are
 - name: date
   label: Work Date
   type: datetime
@@ -24,22 +24,6 @@ fields:
   description: When did this project complete?
   config:
     time_format: " "
-- type: tag_list
-  label: Categories
-  name: categories
-  description: Food, Home Decor, etc.
-- type: image_gallery
-  name: images
-  label: Gallery
-  description: Portfolio of the work done
-- type: textarea
-  name: testimonial
-  label: Testimonial
-  description: Quote from the client
-  config:
-    wysiwyg: true
-    schema:
-      format: markdown
 - type: field_group_list
   name: profiles
   label: Client Profiles
@@ -59,6 +43,6 @@ fields:
   config:
     labelField: title
 pages:
-- _work/tropically-bohemian.markdown
-- _work/puttin-on-the-ritz.markdown
-- _work/olivia-joy-photography.markdown
+- _work/bringin-up-baby.md
+- _work/credntia.md
+- _work/truecoders.md
