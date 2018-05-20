@@ -1,79 +1,35 @@
 ---
-title: Cody Winton
+# Jekyll Settings
+title: TrueCoders
 timezone: America/Chicago
-collections:
-  posts:
-    title: Posts
-    output: true
-  skills:
-    title: Skills
-    output: false
-  uploads:
-    title: Uploads
-    output: true
-  work:
-    title: Work
-    output: false
-defaults:
-- scope:
-    path: ''
-    type: skills
-  values:
-    rank: 0
-- scope:
-    path: ''
-    type: work
-  values:
-    display_title: 
-    website: 
-    jobs:
-    - title: 
-      start_date: 
-      end_date: 
-      body: 
-- scope:
-    path: ''
-    type: pages
-  values:
-    layout: page
-    display_title: 
-    is_footer: false
-    call_to_action:
-      title: 
-      url: 
-- scope:
-    path: resume.markdown
-    type: pages
-  values:
-    layout: resume
-    skills:
-    - type: 
-      values:
-      - title: 
-        rank: 0
-    experience:
-    - start_date: 
-      type: 
-- scope:
-    path: ''
-    type: posts
-  values:
-    permalink: "/blog/:title/"
-    layout: post
-url: https://codywinton.com
-email: cody@codywinton.com
-description: 'Cody Winton: I''m a multi-stack developer & a creative problem solver.
-  Follow me anywhere @codytwinton'
+url: https://truecoders.io
+baseurl: 
+# Enable once Forestry supports custom collections_dir
+# collections_dir: collections
+kramdown:
+  show_warnings: true
+lang: en
+liquid:
+  error_mode: strict
+  strict_filters: true
+  # Enable once certain jekyll extensions, like seo, support without errors
+  # strict_variables: true
+permalink: pretty
+remote_theme: codytwinton/portfolio-theme
+safe: true
+sass:
+  style: compressed
+strict_front_matter: true
+
+# Jekyll SEO Settings
+description: 'Cody Winton: I''m a multi-stack developer & a creative problem solver. Follow me anywhere @codytwinton'
 author:
+  name: Cody Winton
   picture: "/uploads/profile-image.jpg"
   twitter: codytwinton
-current_work:
-  url: https://truecoders.io
-google_analytics:
-  tracking_id: UA-103616440-1
+email: cody@codywinton.com
+image: "/uploads/profile-image.jpg"
 logo: "/uploads/profile-image.jpg"
-twitter:
-  username: codytwinton
 social:
   name: Cody Winton
   links:
@@ -82,13 +38,24 @@ social:
   - https://www.linkedin.com/in/codytwinton
   - https://plus.google.com/+CodyWinton
   - https://github.com/codytwinton
-sass:
-  style: compressed
-plugins:
-- jekyll-feed
-- jekyll-redirect-from
-- jekyll-seo-tag
-- jekyll-sitemap
-baseurl: 
-markdown: kramdown
-permalink: pretty
+twitter:
+  username: codytwinton
+
+# Collections
+collections:
+  work:
+    title: Work
+    output: false
+
+# Defaults for Layouts
+defaults:
+- scope:
+    path: ''
+    type: work
+  values:
+    layout: page
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
