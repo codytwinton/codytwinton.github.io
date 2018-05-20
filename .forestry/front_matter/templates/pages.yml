@@ -22,6 +22,5 @@ fields:
   - partial-columns
   description: The sections to include in the page
 pages:
-- resume.md
 - index.md
 - 404.md
