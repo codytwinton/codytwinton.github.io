@@ -2,9 +2,5 @@
 header:
 - identifier: 
   url: "#about"
-  weight: 2
-  title: About
-- identifier: 
-  url: "#work"
   weight: 1
-  title: Work
+  title: About

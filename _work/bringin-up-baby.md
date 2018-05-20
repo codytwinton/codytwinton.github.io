@@ -1,13 +1,13 @@
 ---
 title: Bringin Up Baby
-date: 2017-11-19 03:36:00 -06:00
+date: 2017-11-19 09:36:00 +0000
 position: 2
 display_title: Bringin’ Up Baby
 website: http://bringinupbaby.com
 jobs:
 - title: Developer
-  start_date: 2017-07-01 00:00:00 -05:00
-  end_date: 2017-08-31 00:00:00 -05:00
+  start_date: 2017-07-01 05:00:00 +0000
+  end_date: 2017-08-31 05:00:00 +0000
   body: |-
     * Developed iOS App using Swift
     * Designed App UI from Mockups
