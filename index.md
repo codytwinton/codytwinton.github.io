@@ -2,10 +2,6 @@
 title: Home
 display_title: Cody Winton
 sections:
-- template: partial-collection
-  collection: work
-  title: Work
-  id: work
 - template: partial-columns
   columns:
   - title: About
