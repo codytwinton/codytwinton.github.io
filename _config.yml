@@ -25,11 +25,11 @@ strict_front_matter: true
 description: 'Cody Winton: I''m a multi-stack developer & a creative problem solver. Follow me anywhere @codytwinton'
 author:
   name: Cody Winton
-  picture: "/uploads/profile-image.jpg"
+  picture: "/uploads/2018/05/15/profile-image.jpg"
   twitter: codytwinton
 email: cody@codywinton.com
-image: "/uploads/profile-image.jpg"
-logo: "/uploads/profile-image.jpg"
+image: "/uploads/2018/05/15/profile-image.jpg"
+logo: "/uploads/2018/05/15/profile-image.jpg"
 social:
   name: Cody Winton
   links:

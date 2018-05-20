@@ -1,2 +1,3 @@
-# codytwinton.github.io
+# codywinton.com
+
 Personal Website
