@@ -18,4 +18,4 @@ sections:
   id: about
 ---
 
-I'm a multi-stack dev & creative problem-solver. I like working with cool stuff. Follow me everywhere @codytwinton.
+I'm a multi-stack dev & creative problem-solver. I like working with cool stuff. Follow me everywhere: @codytwinton
