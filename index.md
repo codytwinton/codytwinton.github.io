@@ -9,7 +9,9 @@ sections:
 - template: partial-columns
   columns:
   - title: About
-    body: I'm a multi-stack dev & creative problem-solver. I like working with cool stuff. Follow me everywhere @codytwinton
+    body: I am a self-taught, multi-stack developer, with a focus on iOS development.
+      I've worked with a variety of companies and projects. Recently, I've accepted
+      a job at Facebook as an iOS Developer.
     width: ''
   - title: Contact
     body: '[cody@codywinton.com](mailto:cody@codywinton.com "Contact Me")'
