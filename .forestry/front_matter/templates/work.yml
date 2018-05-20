@@ -43,6 +43,6 @@ fields:
   config:
     labelField: title
 pages:
+- _work/truecoders.md
 - _work/bringin-up-baby.md
 - _work/credntia.md
-- _work/truecoders.md
