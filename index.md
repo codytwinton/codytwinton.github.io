@@ -37,8 +37,6 @@ sections:
   - owner: sarahwintondesign
     repo: sarahwintondesign.com
     title: Sarah Winton Design
-  id: work
-  title: Work
     keywords:
     - Jekyll
     - Ruby
