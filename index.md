@@ -2,6 +2,23 @@
 title: Home
 display_title: Cody Winton
 sections:
+- template: partial-github
+  repos:
+  - repo: SwiftCommonMark
+    owner: codytwinton
+  - repo: SwiftyVIPER
+    owner: codytwinton
+  - owner: codytwinton
+    repo: codywinton.com
+    title: Personal Website
+  - owner: codytwinton
+    repo: portfolio-theme
+    title: Portfolio Theme
+  - owner: sarahwintondesign
+    repo: sarahwintondesign.com
+    title: Sarah Winton Design
+  id: work
+  title: Work
 - template: partial-columns
   columns:
   - title: About
