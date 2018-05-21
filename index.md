@@ -6,19 +6,44 @@ sections:
   repos:
   - repo: SwiftCommonMark
     owner: codytwinton
+    keywords:
+    - Swift
+    - CommonMark
+    - Markdown
+    description: CommonMark parsing built in pure Swift
   - repo: SwiftyVIPER
     owner: codytwinton
+    keywords:
+    - Swift
+    - VIPER
+    - Cocoapods
+    description: Swift Interaction with VIPER Architecture
   - owner: codytwinton
     repo: codywinton.com
     title: Personal Website
+    description: Personal website built using Jekyll and Forestry
+    keywords:
+    - Jekyll
+    - Ruby
+    - Website
   - owner: codytwinton
     repo: portfolio-theme
     title: Portfolio Theme
+    keywords:
+    - Jekyll
+    - Theme
+    - Ruby
+    description: Jekyll theme built for a portfolio website
   - owner: sarahwintondesign
     repo: sarahwintondesign.com
     title: Sarah Winton Design
   id: work
   title: Work
+    keywords:
+    - Jekyll
+    - Ruby
+    - Website
+    description: Design website built using Jekyll and Forestry
 - template: partial-columns
   columns:
   - title: About
