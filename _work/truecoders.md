@@ -6,6 +6,6 @@ website: https://truecoders.io
 jobs:
 - title: President & Technology Officer
   start_date: 2017-09-01 05:00:00 +0000
-  body: "* Leading company’s organization, management team, and technology"
+  description: "* Leading company’s organization, management team, and technology"
 ---
 

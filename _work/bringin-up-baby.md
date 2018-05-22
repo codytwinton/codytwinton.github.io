@@ -8,7 +8,7 @@ jobs:
 - title: Developer
   start_date: 2017-07-01 05:00:00 +0000
   end_date: 2017-08-31 05:00:00 +0000
-  body: |-
+  description: |-
     * Developed iOS App using Swift
     * Designed App UI from Mockups
     * Structured Cloud Database and Services using Firebase
