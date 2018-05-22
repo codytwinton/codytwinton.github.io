@@ -42,6 +42,8 @@ sections:
     - Ruby
     - Website
     description: Design website built using Jekyll and Forestry
+  id: work
+  title: Work
 - template: partial-columns
   columns:
   - title: About
