@@ -1,6 +1,7 @@
 ---
 title: Home
 display_title: Cody Winton
+nav_menu: home
 sections:
 - template: partial-github
   repos:

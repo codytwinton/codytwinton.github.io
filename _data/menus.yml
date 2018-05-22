@@ -1,9 +1,10 @@
 ---
-header:
-- url: "#work"
+home:
+- identifier: 
+  url: "#work"
   weight: 1
   title: Work
 - identifier: 
   url: "#about"
-  weight: 1
+  weight: 2
   title: About
