@@ -1,5 +1,8 @@
 ---
 header:
+- url: "#work"
+  weight: 1
+  title: Work
 - identifier: 
   url: "#about"
   weight: 1
