@@ -7,6 +7,7 @@ subtitle: Swift Interaction with VIPER Architecture
 profiles:
 - title: GitHub
   url: https://github.com/codytwinton/SwiftyVIPER
+  icon: GitHub
 categories:
 - Swift
 - VIPER
