@@ -23,6 +23,6 @@ fields:
   name: sections
   label: Sections
   template_types:
-  - partial-work
   - partial-columns
+  - partial-work
   description: The sections to include in the page
