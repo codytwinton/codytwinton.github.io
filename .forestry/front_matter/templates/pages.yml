@@ -27,4 +27,5 @@ fields:
   - partial-work
   description: The sections to include in the page
 pages:
+- 404.md
 - index.md
