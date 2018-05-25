@@ -23,8 +23,8 @@ fields:
   name: sections
   label: Sections
   template_types:
-  - partial-columns
   - partial-work
+  - partial-columns
   description: The sections to include in the page
 pages:
 - 404.md
