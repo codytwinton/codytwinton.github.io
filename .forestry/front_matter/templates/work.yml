@@ -1,4 +1,5 @@
 ---
+label: Work
 hide_body: false
 is_partial: false
 fields:
@@ -74,3 +75,7 @@ fields:
   name: images
   label: Work Portfolio
   description: Image gallery
+pages:
+- _work/portfolio-theme.md
+- _work/swiftcommonmark.md
+- _work/swiftyviper.md
