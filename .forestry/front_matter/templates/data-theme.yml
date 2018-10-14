@@ -52,5 +52,5 @@ fields:
     default: sans-serif
   config:
     labelField: name
-data_files:
+pages:
 - _data/theme.yml

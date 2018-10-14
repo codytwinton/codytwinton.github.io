@@ -34,5 +34,5 @@ fields:
     default: ''
   config:
     labelField: title
-data_files:
+pages:
 - _data/socials.yml
