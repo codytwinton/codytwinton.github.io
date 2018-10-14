@@ -1,6 +1,6 @@
 ---
-label: Data - Socials
-hide_body: false
+label: data-socials
+hide_body: true
 is_partial: false
 fields:
 - type: field_group_list
@@ -24,14 +24,15 @@ fields:
     name: icon
     config:
       source:
-        type: datafiles
-        file: _data-icons-yml
-        path: icons
+        type: documents
+        file: _data/icons.yml
+        path: ''
+        section: information
       required: true
     label: Icon
     description: Font awesome icon
-    default: Facebook
+    default: ''
   config:
     labelField: title
-data_files:
+pages:
 - _data/socials.yml
