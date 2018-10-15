@@ -1,5 +1,5 @@
 ---
-label: Site Data
+label: Site
 hide_body: false
 is_partial: false
 fields:
@@ -134,3 +134,5 @@ fields:
   name: logo
   label: 'SEO: Logo'
   description: Used for SEO
+pages:
+- _config.yml
