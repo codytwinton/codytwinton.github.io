@@ -134,5 +134,3 @@ fields:
   name: logo
   label: 'SEO: Logo'
   description: Used for SEO
-pages:
-- _config.yml
