@@ -1,21 +1,28 @@
 ---
 title: Cody Winton
 timezone: America/Los_Angeles
-url: https://codywinton.com
+description: 'Cody Winton: I''m a multi-stack developer & a creative problem solver.
+  Follow me anywhere @codytwinton'
+author:
+  name: Cody Winton
+  picture: "/uploads/2018/05/15/profile-image.jpg"
+  twitter: codytwinton
 ga_tracking_id: UA-103616440-1
-baseurl: 
-kramdown:
-  show_warnings: true
+image: "/uploads/2018/05/15/profile-image.jpg"
 lang: en
-liquid:
-  error_mode: strict
-  strict_filters: true
-permalink: pretty
-remote_theme: codytwinton/portfolio-theme@v0.9.0
-safe: true
-sass:
-  style: compressed
-strict_front_matter: true
+logo: "/uploads/2018/05/15/profile-image.jpg"
+social:
+  name: Cody Winton
+  links:
+  - https://twitter.com/codytwinton
+  - https://www.facebook.com/codytwinton
+  - https://www.linkedin.com/in/codytwinton
+  - https://plus.google.com/+CodyWinton
+  - https://github.com/codytwinton
+twitter:
+  username: codytwinton
+url: https://codywinton.com
+baseurl: 
 collections:
   work:
     title: Work
@@ -31,25 +38,21 @@ defaults:
     type: pages
   values:
     layout: page
-description: 'Cody Winton: I''m a multi-stack developer & a creative problem solver.
-  Follow me anywhere @codytwinton'
-author:
-  name: Cody Winton
-  picture: "/uploads/2018/05/15/profile-image.jpg"
-  twitter: codytwinton
-email: cody@codywinton.com
-image: "/uploads/2018/05/15/profile-image.jpg"
-logo: "/uploads/2018/05/15/profile-image.jpg"
-social:
-  name: Cody Winton
-  links:
-  - https://twitter.com/codytwinton
-  - https://www.facebook.com/codytwinton
-  - https://www.linkedin.com/in/codytwinton
-  - https://plus.google.com/+CodyWinton
-  - https://github.com/codytwinton
-twitter:
-  username: codytwinton
+exclude:
+- README.md
+- package.json
+- package-lock.json
+kramdown:
+  show_warnings: true
+liquid:
+  error_mode: strict
+  strict_filters: true
+permalink: pretty
+remote_theme: codytwinton/portfolio-theme@v0.9.0
+safe: true
+sass:
+  style: compressed
+strict_front_matter: true
 titles_from_headings:
   enabled: false
   strip_title: false
