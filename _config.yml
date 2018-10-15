@@ -4,32 +4,22 @@ timezone: America/Los_Angeles
 url: https://codywinton.com
 ga_tracking_id: UA-103616440-1
 baseurl: 
-# Enable once Forestry supports custom collections_dir
-# collections_dir: collections
 kramdown:
   show_warnings: true
 lang: en
 liquid:
   error_mode: strict
   strict_filters: true
-  # Enable once certain jekyll extensions, like seo, support without errors
-  # strict_variables: true
 permalink: pretty
 remote_theme: codytwinton/portfolio-theme@v0.9.0
 safe: true
 sass:
   style: compressed
 strict_front_matter: true
-
-
-# Collections
 collections:
   work:
     title: Work
     output: false
-
-
-# Defaults for Layouts
 defaults:
 - scope:
     path: ''
@@ -41,10 +31,8 @@ defaults:
     type: pages
   values:
     layout: page
-
-
-# jekyll-seo-tag settings
-description: 'Cody Winton: I''m a multi-stack developer & a creative problem solver. Follow me anywhere @codytwinton'
+description: 'Cody Winton: I''m a multi-stack developer & a creative problem solver.
+  Follow me anywhere @codytwinton'
 author:
   name: Cody Winton
   picture: "/uploads/2018/05/15/profile-image.jpg"
@@ -62,9 +50,6 @@ social:
   - https://github.com/codytwinton
 twitter:
   username: codytwinton
-
-
-# jekyll-titles-from-headings
 titles_from_headings:
   enabled: false
   strip_title: false
