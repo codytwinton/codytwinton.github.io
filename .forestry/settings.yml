@@ -28,6 +28,10 @@ sections:
   path: _data/info.yml
   label: Company
 - type: document
+  path: _config.yml
+  label: Site
+  match: "**/*"
+- type: document
   path: _data/theme.yml
   label: Theme
 upload_dir: uploads
